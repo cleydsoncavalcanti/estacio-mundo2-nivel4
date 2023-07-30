@@ -4,9 +4,21 @@ import { Livro } from './livro';
 @Injectable()
 export class ControleLivrosService {
   private livros: Array<Livro> = [
-    { codigo: 1, codEditora: 1, titulo: 'Livro 1', resumo: 'Resumo do Livro 1', autores: ['Autor 1', 'Autor 2'] },
-    { codigo: 2, codEditora: 2, titulo: 'Livro 2', resumo: 'Resumo do Livro 2', autores: ['Autor 3', 'Autor 4'] },
-    { codigo: 3, codEditora: 3, titulo: 'Livro 3', resumo: 'Resumo do Livro 3', autores: ['Autor 5', 'Autor 6'] }
+  { codigo:1,
+    codEditora: 1,
+    titulo: 'Use a cabeça: Java',
+    resumo:'Começar a aprender a linguagem em um livro como os do Deitel é um tiro no pé, certeza de se tornar um programador burocrático. O Use a Cabeça consegue fazer uma ...',
+    autores: ['Agatha Christie', 'William Shakespeare']},
+   { codigo:2,
+    codEditora: 2,
+    titulo: 'Java: Como programar',
+    resumo:'É um livro muito bom. Até mesmo se você NÃO quiser aprender Java! rs! Na época que o li estava estudando C#, mas seus conceitos de OOP me ajudaram MUITO.',
+    autores:  ['Harold Robbins']},
+   { codigo:3,
+    codEditora: 3,
+    titulo: 'Core Java for the Impatient',
+    resumo:'Core Java for the Impatient, Third Edition, is a complete yet concise guide that reflects all changes through Java SE 17, Oracle\'s latest',
+    autores:  ['Georges Simenon', 'Enid Blyton']},
   ];
 
   // Implemente o método obterLivros com o retorno do vetor livros
