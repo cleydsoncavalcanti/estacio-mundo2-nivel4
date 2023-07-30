@@ -4,9 +4,9 @@ import { Editora } from './editora';
 @Injectable()
 export class ControleEditoraService {
   private editoras: Array<Editora> = [
-    { codEditora: 1, nome: 'Editora 1' },
-    { codEditora: 2, nome: 'Editora 2' },
-    { codEditora: 3, nome: 'Editora 3' }
+    { codEditora: 1, nome: 'Alta Books' },
+    { codEditora: 2, nome: 'Pearson' },
+    { codEditora: 3, nome: 'Editora Mundo Feliz' }
   ];
 
   // Implemente o método getEditoras com o retorno do vetor editoras
